@@ -1,0 +1,13 @@
+{
+  "name": "NVM",
+  "version": "0.0.1",
+  "scripts": {
+    "run": "node index.js",
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+  }
+}

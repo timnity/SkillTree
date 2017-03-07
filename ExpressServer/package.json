@@ -1,0 +1,12 @@
+{
+  "name": "ExpressServer",
+  "version": "0.0.1",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+  }
+}

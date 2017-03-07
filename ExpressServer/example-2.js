@@ -14,12 +14,6 @@ app.set('env', env)
 app.set('port', port)
 
 /**
- * 用于指定URL路径和服务器路径的映射
- */
-const publicDir = path.resolve(__dirname, './public')
-app.use('/', express.static(publicDir))
-
-/**
  * 路由
  */
 // 访问 www.yourdomain.com/home 时会访问这里

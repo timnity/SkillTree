@@ -14,5 +14,8 @@
 11. git branch -d <BranchName>
 12. git merge <BranchName>
 
+## Git 命令手册
+https://github.com/shfshanyue/cheat-sheets/blob/master/docs/git.md
+
 ## 安装GUI图形客户端
 1. SourceTree

@@ -1,6 +1,7 @@
 # SkillTree
 
-技能培训资源
+Nodejs技术培训资料。目的用于新成员快速熟悉和了解团队技术栈，快速入门上手项目，剩下的靠大量练习。
+
 Persnonal skill tree trainning source
 
 ## 目录

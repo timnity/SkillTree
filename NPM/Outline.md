@@ -1,6 +1,8 @@
 # NPM Node.js包管理器
 
-npm是Node.js的包管理器，安装node.js的自带这个工具，它的官网地址是: [npmjs.org](https://npmjs.org)。
+npm是Node.js的包管理器，安装node.js会自动一起安装这个工具，它是 Node 获得成功的重要原因之一。 正因为有了npm，我们只要一行命令，就能安装别人写好的模块。
+
+npm当前已经是最大的第三方类库集合，它的官网地址是: [npmjs.org](https://npmjs.org)。
 
 ### package.json
 要安装什么包，哪个版本，安装在什么环境下，都通过一个配置文件 [package.json](https://github.com/timnity/SkillTree/blob/master/NPM/package.json)

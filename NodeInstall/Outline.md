@@ -1,6 +1,8 @@
 # Node Installtion / 安装 NodeJS
 
-## NodeJS 安装包 [下载](https://nodejs.org/en/download/package-manager/)
+NodeJS 安装包 [下载](https://nodejs.org/en/download/package-manager/)
+
+---
 
 ## 有两个管理工具 NVM 和 N，用于管理多个node版本，因常用nvm，这里介绍nvm的安装。
 

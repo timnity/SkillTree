@@ -1,35 +1,19 @@
-# Node Install / Node 环境搭建
-
-## 用NVM安装Node
-
-### 1. [Install NVM](https://github.com/creationix/nvm)
-在终端执行以下命令
-
-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
-
-或
-
-`wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
-
-
-### 2. NVM常用命令
-* nvm ls
-* nvm ls-remote
-* nvm install [版本号]
-* nvm uninstall [版本号]
-* nvm alias default [版本号]
-
-### 3.安装 Node.js
-`nvm install [版本号]`
-
-`npm update -g npm`
-
-### 4.运行
-* 新建一个js文件，如hello.js
+### 1.如何运行
+* 新建一个js文件，如 [hello.js](https://github.com/timnity/SkillTree/blob/master/NodeBase/1-hello.js)
 * 在hello.js中写入一点js运行代码，如 `console.log('----- Hello World -----')` 打印一段话
-* 执行 `node hello.js`
+* 打开命令行（Terminal/Command）执行 `node hello.js`
 
-### 5.module.exports 和 exports 使用原则
+### 2.多个文件间如何互相引用？
+[2-moduleDemo.js](https://github.com/timnity/SkillTree/blob/master/NodeBase/2-moduleDemo.js)
+
+[2-moduleRun.js](https://github.com/timnity/SkillTree/blob/master/NodeBase/2-moduleRun.js)
+
+打开命令行运行 `node 2-moduleRun.js`
+
+### 3. 一个简单的http服务
+[httpserver.js](https://github.com/timnity/SkillTree/blob/master/NodeBase/3-httpserver.js)
+
+### 有意识区分：module.exports 和 exports
 
 相关细节看 [这里](http://www.ghostchina.com/module-exports-and-exports-in-node-js/) 和 [这里](http://gywbd.github.io/posts/2014/11/using-exports-nodejs-interface-design-pattern.html)
 

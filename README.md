@@ -6,11 +6,11 @@ Persnonal skill tree trainning source
 
 ## 目录
 
-- [了解 Git](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
-- [安装 node](https://github.com/timnity/SkillTree/blob/master/NodeInstall/Outline.md)
-- [包管理器 npm](https://github.com/timnity/SkillTree/blob/master/NPM/Outline.md)
-- [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
-- [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
-- [Babel 编译工具](https://github.com/timnity/SkillTree/blob/master/Babel/Outline.md)
-- [React 样例](https://github.com/timnity/SkillTree/blob/master/React/Outline.md)
-- [Webpack 打包工具]()
+- [x] [了解 Git](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
+- [x] [安装 node](https://github.com/timnity/SkillTree/blob/master/NodeInstall/Outline.md)
+- [x] [包管理器 npm](https://github.com/timnity/SkillTree/blob/master/NPM/Outline.md)
+- [x] [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
+- [x] [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
+- [] Babel 编译工具
+- [] React 样例
+- [] Webpack 打包工具

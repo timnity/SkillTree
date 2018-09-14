@@ -11,6 +11,6 @@ Persnonal skill tree trainning source
 - [x] [包管理器 npm](https://github.com/timnity/SkillTree/blob/master/NPM/Outline.md)
 - [x] [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
 - [x] [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
-- [] Babel 编译工具
-- [] React 样例
-- [] Webpack 打包工具
+- [ ] Babel 编译工具
+- [ ] React 样例
+- [ ] Webpack 打包工具

@@ -13,6 +13,6 @@ Persnonal skill tree trainning source
 - [x] [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
 - [x] [JavaScript 代码风格规范及工具](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
 - [x] [连接并操作 Mysql 数据库](https://github.com/timnity/SkillTree/blob/master/Database/Outline.md)
+- [x] [Webpack 打包工具](https://github.com/timnity/SkillTree/blob/master/Webpack/Outline.md)
 - [ ] Babel 编译工具
 - [ ] React 样例
-- [ ] Webpack 打包工具

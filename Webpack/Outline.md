@@ -42,3 +42,34 @@ loader 可以不通过配置文件直接使用，但那导致命令行太长了�
 
 
 ### Backend-Config
+[后端webpack打包样例](https://github.com/timnity/Express-Scaffold/commit/43b3b1ed6ceb138d5fd0d408f25bf2b07bd722b1)
+
+注意：
+1. target 要为 node，这样fs、path等内置包才可以用，否则默认要用V8的引擎来执行
+2. node_modules 文件夹要忽略掉，用第三方库或自己写代码忽略即可
+
+### Code Splitting 代码分割
+一般代码分割需要做这些事情：
+
+1. 为第三方库或公共基础组件，变化较少的公共库单独打包，利于缓存。
+2. 为 Webpack 的运行时单独打包。
+3. 为不同入口的公共业务代码打包。
+4. 为异步加载的代码打一个公共的包。
+
+Code Splitting 在webpack中一般是通过 CommonsChunkPlugin 来完成的。由于配置比较麻烦，大家的配置往往互相copy，基本上成了模板代码。如果比较复杂的要求，那就很难配置了。
+
+在 Webpack4 下，对 CommonsChunkPlugin 直接废弃了，引入 optimization.splitChunks 这个选项。
+
+optimization.splitChunks 默认是不用色泽的。如果 mode 是 production，那 Webpack4 就会开启 Code Splitting。
+```
+默认 Webpack4 只会对按需加载的代码做分割。如果我们需要配置初始加载的代码也加入到代码分割中，可以设置 splitChunks.chunks 为 'all'。
+```
+
+### Long-term caching
+给静态文件一个很长的缓存过期时间，比如一年。然后再给文件里加上一个 hash，每次构建时，当文件内容发生改变时，文件名中的 hash 也会变。
+
+```
+output: {
+    filename: [name].[chunkhash].js
+}
+```

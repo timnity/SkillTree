@@ -15,5 +15,6 @@ Persnonal skill tree trainning source
 - [x] [连接并操作 Mysql 数据库](https://github.com/timnity/SkillTree/blob/master/Database/Outline.md)
 - [x] [Webpack 打包工具](https://github.com/timnity/SkillTree/blob/master/Webpack/Outline.md)
 - [x] [Redis 缓存资料](https://github.com/timnity/SkillTree/blob/master/Redis/Outline.md)
+- [x] [JWT(Json Web Token)](https://github.com/timnity/SkillTree/blob/master/JWT/Outline.md)
 - [ ] Babel 编译工具
 - [ ] React 样例

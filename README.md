@@ -6,15 +6,22 @@ Persnonal skill tree trainning source
 
 ## 目录
 
+### 开发基础技能
 - [x] [了解 Git](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
+- [x] [JavaScript 代码风格规范及工具](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
+
+### NodeJS 基础 & 共用技能
 - [x] [安装 node](https://github.com/timnity/SkillTree/blob/master/NodeInstall/Outline.md)
 - [x] [包管理器 npm](https://github.com/timnity/SkillTree/blob/master/NPM/Outline.md)
 - [x] [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
 - [x] [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
-- [x] [JavaScript 代码风格规范及工具](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
-- [x] [连接并操作 Mysql 数据库](https://github.com/timnity/SkillTree/blob/master/Database/Outline.md)
 - [x] [Webpack 打包工具](https://github.com/timnity/SkillTree/blob/master/Webpack/Outline.md)
+
+### Backend 开发进阶
+- [x] [连接并操作 Mysql 数据库](https://github.com/timnity/SkillTree/blob/master/Database/Outline.md)
 - [x] [Redis 缓存资料](https://github.com/timnity/SkillTree/blob/master/Redis/Outline.md)
 - [x] [JWT(Json Web Token)](https://github.com/timnity/SkillTree/blob/master/JWT/Outline.md)
+
+### Frontend 开发进阶
 - [ ] Babel 编译工具
 - [ ] React 样例

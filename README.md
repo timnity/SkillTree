@@ -8,6 +8,7 @@ Persnonal skill tree trainning source
 
 ### 开发基础技能
 - [x] [了解 Git](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
+- [x] [了解 EditorConfig 工具](https://github.com/timnity/SkillTree/blob/master/EditorConfig/Outline.md)
 - [x] [JavaScript 代码风格规范及工具](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
 
 ### NodeJS 基础 & 共用技能

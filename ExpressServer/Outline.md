@@ -13,14 +13,5 @@
 ### 简单了解下熟悉常用Express的各插件
 [Express 3 to 4 的区别：](http://expressjs.com/en/guide/migrating-4.html)
 
-### 完整的 Express 例子
-构建例子的过程:
-[第一步](https://github.com/timnity/Express-Scaffold/commit/9f50456813eb135f6c41a31bab224e01f44a0814)
-
-[第二步](https://github.com/timnity/Express-Scaffold/commit/7967ec0ca593f28e4f4542a3e68214fe1e22c5ea)
-
-[第三步](https://github.com/timnity/Express-Scaffold/commit/29d732365e16fee75470095e9ccba7791ce7daf6)
-
-[第四步](https://github.com/timnity/Express-Scaffold/commit/0f0a240f1a27a0ee55ce5bbb6b2f07a2358eed41)
-
-[第五步完整的例子](https://github.com/timnity/Express-Scaffold/commit/50d95c3dd08114d6f6d8d6ba3ac74a5111dd3a2c)
+### 完整的 Express Server 例子
+[例子](https://github.com/timnity/Node-Scaffold/tree/485f991836647a22ac76178c4e3fa0d152a5d081)

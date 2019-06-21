@@ -2,7 +2,7 @@
 Webpack 是一个很好用的代码打包和集成工具，但是一直以来，它的配置文件太麻烦，较高的门槛阻止了很多新手入坑。但从 4.0 版本以后可以无需配置文件即可运行。
 
 #### 安装和无配置运行 webpack
-`npm i webpack webpack-cli --save-dev`
+`npm i webpack webpack-cli webpack-node-externals --save-dev`
 
 试着运行： `node ./node_modules/.bin/webpack` 或把它写到package.json 的script里 `"build": "node ./node_modules/.bin/webpack"`
 
@@ -42,11 +42,12 @@ loader 可以不通过配置文件直接使用，但那导致命令行太长了�
 
 
 ### Backend-Config
-[后端webpack打包样例](https://github.com/timnity/Express-Scaffold/commit/43b3b1ed6ceb138d5fd0d408f25bf2b07bd722b1)
+[后端webpack打包样例](https://github.com/timnity/Node-Scaffold/blob/004203af8bbb83b71337337d4f2e1188b84d080d/config/webpack.cfg.js)
 
 注意：
 1. target 要为 node，这样fs、path等内置包才可以用，否则默认要用V8的引擎来执行
 2. node_modules 文件夹要忽略掉，用第三方库或自己写代码忽略即可
+3. mode 一定要指定，要么是在命令中，要么是在配置文件中指定。
 
 ### Code Splitting 代码分割
 一般代码分割需要做这些事情：

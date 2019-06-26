@@ -17,7 +17,7 @@ Persnonal skill tree trainning source
 - [x] [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
 - [x] [Express 应用服务器](https://github.com/timnity/SkillTree/blob/master/ExpressServer/Outline.md)
 - [x] [Webpack 打包工具](https://github.com/timnity/SkillTree/blob/master/Webpack/Outline.md)
-- [ ] [Async & Await](https://github.com/timnity/SikllTree/blob/master/Async&Await/Outline.md)
+- [x] [Async & Await](https://github.com/timnity/SkillTree/blob/master/Async%26Await/Outline.md)
 
 ### Backend 开发进阶
 - [x] [连接并操作 Mysql 数据库](https://github.com/timnity/SkillTree/blob/master/Database/Outline.md)

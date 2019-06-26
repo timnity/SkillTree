@@ -42,6 +42,3 @@ var redisClient = redis.createClient(port, ip, {})
 ```
 
 但我们团队更喜欢用「ioredis」包来进行操作。原因是「redis」包更新很慢，而且所有操作需要代码实现，而「ioredis」封装了基本操作，除非复杂操作需要自己代码实现外，基本的读写、过期设置等都有比较好的封装。
-
-#### 代码
-[样例代码](https://github.com/timnity/Express-Scaffold/commit/006454698fd9b39ff5aa5d8d714bce245ec30c01)

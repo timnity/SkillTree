@@ -8,5 +8,5 @@ React 一般用于 MVC 中的 V 层。在生产环境中，配合 Express+React+
 
 ### 练习
 1. 把 Express 和 React 结合起来，Express和React都不要用到Babel。
-2. Express 用 Babel 编译，ES6 写法。
-3. React 用 Babel 编译，ES6 写法。
+2. React 用 Babel 编译，ES6 写法。
+3. 添加 Webpack 用于集成 React + Express + Babel。

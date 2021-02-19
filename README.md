@@ -7,11 +7,11 @@ Persnonal skill tree trainning source
 ## 目录
 
 ### 开发基础技能
-- [x] [了解 Git](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
-- [x] [了解 EditorConfig 工具](https://github.com/timnity/SkillTree/blob/master/EditorConfig/Outline.md)
-- [x] [js 代码规范及自动工具 ESlint](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
+- [x] [团队协作的基础工具 Git (重要)](https://github.com/timnity/SkillTree/blob/master/Git/Outline.md)
+- [x] [EditorConfig 工具 (选用)](https://github.com/timnity/SkillTree/blob/master/EditorConfig/Outline.md)
+- [x] [js 代码规范及自动检查工具 ESlint (较重要)](https://github.com/timnity/SkillTree/blob/master/CodeFormat/Outline.md)
 
-### NodeJS 基础 & 共用技能
+### NodeJS 开发环境基础
 - [x] [安装 node](https://github.com/timnity/SkillTree/blob/master/NodeInstall/Outline.md)
 - [x] [包管理器 npm](https://github.com/timnity/SkillTree/blob/master/NPM/Outline.md)
 - [x] [Node.js 基础](https://github.com/timnity/SkillTree/blob/master/NodeBase/Outline.md)
